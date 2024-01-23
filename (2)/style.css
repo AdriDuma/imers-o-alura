@@ -183,6 +183,9 @@
             padding: 15px 40px;
             position: fixed;
             bottom: 0;
+            right: 0;
+            left: 0;
+            background: linear-gradient(to right, #ae2896, #509bf5);
             
           }.disclaimer-premium button {
             background-color: #ffffff;
@@ -195,3 +198,18 @@
             font-weight: bold;
             font-family: "DM Sans", sans-serif;
         }
+
+ .disclaimer-premium .disclaimer-premium__subtitle{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .disclaimer-premium .disclaimer-premium__title{
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
